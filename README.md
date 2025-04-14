@@ -63,8 +63,9 @@ You should see the JSON response with timestamp and IP.
 ## 🐳 DockerHub Image (Public)
 To pull and run directly without cloning:
 ```bash
-docker pull rajanyadav/simpletimeservice
-docker run -p 5000:5000 rajanyadav/simpletimeservice
+docker pull rajanyadav128/praticle41:simpletimeservice-v1
+docker run -d --name simpletimeservice-container -p 8080:8080 rajanyadav128/praticle41:simpletimeservice-v1
+
 ```
 ---
 ## 🔐 Security & Best Practices
