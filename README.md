@@ -41,7 +41,7 @@ Before getting started, make sure the following tools are installed on your syst
 ### 🔹 Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/simple-time-service.git
+git clone https://github.com/azure-devsecops-rajan/simple-time-service.git
 cd simple-time-service
 ```
 
