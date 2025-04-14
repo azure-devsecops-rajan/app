@@ -78,8 +78,8 @@ docker run -d --name simpletimeservice-container -p 8080:8080 rajanyadav128/prat
 ---
 ## 🗂️ Project Structure
 ```bash
-simple-time-service/
-├── app.py              # Flask app
+app/
+├── main.py             # Flask app
 ├── requirements.txt    # Python dependencies
 ├── Dockerfile          # Container instructions
 └── README.md           # Project documentation
